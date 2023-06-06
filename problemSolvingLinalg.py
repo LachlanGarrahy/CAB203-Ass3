@@ -1,8 +1,6 @@
 import numpy as np
 import numpy.linalg
 import csv
-import os
-scriptDirectory = os.path.dirname(__file__)
 
 def fertiliser(csvfilename, n, p, k):
   # set initial values
